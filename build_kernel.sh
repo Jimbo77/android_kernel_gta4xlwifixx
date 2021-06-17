@@ -1,8 +1,8 @@
 #!/bin/bash
 
 export ARCH=arm64
-export CROSS_COMPILE=../PLATFORM/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export clang-triple = android/prebuilts/clang/host/linux-x86/clang-4639204/bin/aarch64-linux-gnu-
+export CROSS_COMPILE=toolchains/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
+export CLANG_TRIPLE=aarch64-linux-gnu-
 export ANDROID_MAJOR_VERSION=r
 export PLATFORM_VERSION=11
 
